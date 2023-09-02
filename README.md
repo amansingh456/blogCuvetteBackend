@@ -18,5 +18,15 @@
 
 <br/>
 <h1>now clone git repo</h1>
-
+<li>go to folder  `cd folderName`</li>
 ## install node_modules --> `npm i`
+<li>come to root folder `cd ..`</li>
+## install pm2 --> `sudo npm i -g pm2`
+## start server --> `pm2 start index.js`
+## other pm2 command --> 
+`pm2 show appName`
+`pm2 status`
+`pm2 restart all`
+`pm2 stop all`
+`pm2 logs`
+`pm2 flush` (clear logs)
