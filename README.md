@@ -30,7 +30,6 @@
 
 ## other pm2 command --> 
 
-`pm2 show appName`
 `pm2 status`
 `pm2 restart all`
 `pm2 stop all`
