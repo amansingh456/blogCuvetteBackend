@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 // require("dotenv").config()
 
 const db = mysql.createConnection({
-  host: "mydb.cpdmi4ml6suu.eu-north-1.rds.amazonaws.com",
-  user: "admin",
-  password: "amansingh",
-  database: "cuvetteblog",
+  host: "sql12.freesqldatabase.com",
+  user: "sql12646424",
+  password: "X6iTjmu4F8",
+  database: "sql12646424",
 });
 
 module.exports = db;
